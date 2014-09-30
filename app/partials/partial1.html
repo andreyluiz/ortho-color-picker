@@ -1,1 +1,12 @@
-<p>This is the partial for view 1.</p>
+<h2 class="centered">{{ cor.descricao }}</h2>
+<div class="img-container">
+	<img src="{{ cor.imagem }}" class="central-image"></img>
+</div>
+
+<div class="row" style="margin: 0 auto;">
+	<div ng-repeat="cor in cores" class="col-xs-6 col-sm-4 centered" style="" ng-click="mudarCor(cor)">
+		<div style="padding: 3px; margin-bottom: 10px; height: 100%; background-color: {{ cor.fundo }}; color: {{ cor.fonte }};">
+			{{ cor.descricao }}
+		</div>
+	</div>
+</div>
