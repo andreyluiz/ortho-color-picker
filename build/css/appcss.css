@@ -1,0 +1,39 @@
+/* app css stylesheet */
+
+body {
+  background-color: #EEE;
+}
+
+.navbar {
+  margin-bottom: 15px;
+}
+
+.img-container {
+  position: relative;
+  padding-top: 66.59%;
+}
+
+.img-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar .navbar-icon {
+  width: 50px;
+  float: left;
+  position: relative;
+  margin-left: 10px;
+}
+
+.pick-button {
+  padding: 3px;
+  margin-bottom: 10px;
+  border: 1px solid #CCC;
+  height: 50px;
+}
+
+.centered {
+  text-align: center;
+}

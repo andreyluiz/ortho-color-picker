@@ -1,3 +1,12 @@
+angular.module('myApp', [
+    'ngRoute',
+    'myApp.controllers'
+]).
+config(['$routeProvider', function($routeProvider) {
+    $routeProvider.when('/cores', {templateUrl: 'partials/cores.html', controller: 'CoresCtrl'});
+    $routeProvider.otherwise({redirectTo: '/cores'});
+}]);
+
 angular.module('myApp.controllers', [])
     .controller('CoresCtrl', ['$scope', function($scope) {
         $scope.cores = [

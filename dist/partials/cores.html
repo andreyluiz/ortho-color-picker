@@ -1,0 +1,1 @@
+<h2 ng-if="cor" class="centered" style="margin-top: -10px">{{ cor.descricao }}</h2><div ng-if="cor" class="img-container"><img src="{{ cor.imagem }}" class="central-image"></div><div ng-repeat="cor in cores" class="col-xs-2 col-sm-2 centered pick-button" ng-click="mudarCor(cor)" style="background-color: {{ cor.fundo }}; color: {{ cor.fonte }}"></div>

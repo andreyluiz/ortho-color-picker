@@ -1,7 +1,11 @@
 /* app css stylesheet */
 
+body {
+	background-color: #EEE;
+}
+
 .navbar {
-	margin: 0;
+	margin-bottom: 15px;
 }
 
 .img-container {
@@ -21,6 +25,13 @@
 	float: left;
 	position: relative;
 	margin-left: 10px;
+}
+
+.pick-button {
+	padding: 3px; 
+	margin-bottom: 10px; 
+	border: 1px solid #CCC;
+	height: 50px;
 }
 
 .centered {
